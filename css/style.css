@@ -6,7 +6,15 @@ body {
     
     
 }
+#FH5{
+    width: 200px;
+    height: auto;
+}
 
+#HS{
+    width: 300px;
+    height: auto;
+}
 #bgc{
     background-color: lightgray;
     padding: 15px;
