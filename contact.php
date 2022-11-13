@@ -40,5 +40,6 @@ $message = htmlspecialchars($_POST['content']);
 <p><?php echo $subject?></p>
 <!-- echo "<p>", $message, "</p>"; -->
 <p><?php echo $message?></p>
+<a href="contact.html" data-toggle="tooltip" data-placement="top" title="Contact">Contact</a>
 </body>
 </html>
