@@ -7,12 +7,21 @@ body {
     
 }
 #FH5{
+    width: 100px;
+    height: auto;
+}
+
+#dd{
     width: 200px;
     height: auto;
 }
 
+.listNoDecoration{
+    list-style-type: none;
+}
+
 #HS{
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 #bgc{
