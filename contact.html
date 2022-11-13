@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yannick van Eck">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" data-toggle="tooltip" data-placement="top" title="Start pagina">Start pagina</a>
+            </li>
+            <li><a href="CV.html" data-toggle="tooltip" data-placement="top" title="Curriculum Vitae">
+
+                    Curriculum Vitae</a></li>
+            <li><a href="ervaring.html" data-toggle="tooltip" data-placement="top" title="Ervaring">Ervaring</a></li>
+            <li><a href="hobby.html" data-toggle="tooltip" data-placement="top" title="Hobby's">Hobby's</a></li>
+            <li><a href="#" data-toggle="tooltip" data-placement="top" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="bgc">
+        <form action="contact.php" method="post">
+            <p hidden><input type="email" id="to" name="to" value="r0712301@student.thomasmore.be"></p>
+            <p><label for="email">Email:</label></p>
+            <p><input type="email" id="email" name="email" placeholder="example@email.com" required></p>
+            <p><label for="subject">Onderwerp:</label></p>
+            <p><input type="text" id="subject" name="subject" placeholder="Onderwerp" required></p>
+            <p><label for="content">Inhoud:</label></p>
+            <p><textarea name="content" id="content" cols="30" rows="10" placeholder="Inhoud an uw bericht"
+                    required></textarea></p>
+            <p><input type="submit" value="versturen"></p>
+        </form>
+    </div>
+</body>
+
+</html>
