@@ -7,8 +7,9 @@ body {
     
 }
 
-#border{
-    border: 3px, #111, solid;
+#bgc{
+    background-color: lightgray;
+    padding: 15px;
 }
 nav ul {
 
@@ -35,9 +36,14 @@ nav ul li a:hover {
     background-color: #111;
 }
 
-h1 {
+h1, h2, h3 {
     margin: 10px;
     padding: 10px;
+    margin-left: 0;
+    padding-left: 0;
+}
+li ul li{
+    list-style-type: none;
 }
 
 #welcome {
