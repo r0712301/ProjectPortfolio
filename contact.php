@@ -21,9 +21,24 @@ $mailto = htmlspecialchars($_POST['email']);
 $mailfrom = "yannickvaneckbe@yannickvaneck.be";
 $subject = htmlspecialchars($_POST['subject']);
 $message = htmlspecialchars($_POST['content']);
-echo "<p>Aangezien mijn mailing nog niet werkt, print ik hier uw informatie terug.</p>";
-echo "<p>", $mailto, "</p>";
-echo "<p>", $subject, "</p>";
-echo "<p>", $message, "</p>";
+
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Contact</title>
+</head>
+<body>
+<p>Aangezien mijn mailing nog niet werkt, print ik hier uw informatie terug.</p>
+<p><?php echo $mailto?></p>
+<!-- echo "<p>", $mailto, "</p>"; -->
+<!-- echo "<p>", $subject, "</p>"; -->
+<p><?php echo $subject?></p>
+<!-- echo "<p>", $message, "</p>"; -->
+<p><?php echo $message?></p>
+</body>
+</html>
