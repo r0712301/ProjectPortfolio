@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yannick van Eck">
-    <link rel="stylesheet" href="../css/style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>Contact</title>
+
+    
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
@@ -32,24 +35,216 @@
             <li><a href="#" data-toggle="tooltip" data-placement="top" title="Contact">Contact</a></li>
         </ul>
     </nav>
-    <div id="bgc">
-        <form  method="post" action="contact.php">
-            <p hidden><input type="email" id="to" name="to" value="r0712301@student.thomasmore.be"></p>
-            <p><label for="email">Email:</label></p>
-            <p><input type="email" id="email" name="email" placeholder="example@email.com" required></p>
-            <p><label for="subject">Onderwerp:</label></p>
-            <p><input type="text" id="subject" name="subject" placeholder="Onderwerp" required></p>
-            <p><label for="content">Inhoud:</label></p>
-            <p><textarea name="content" id="content" cols="30" rows="10" placeholder="Inhoud an uw bericht"
-                    required></textarea></p>
-            <p><input type="submit" value="versturen"></p>
-        </form>
+
+
+    <div class="wrapper rounded6" id="templateContainer">
+        <h1 class="masthead">Student@Thomasmore</h1>
+
+        <div id="templateBody" class="bodyContent rounded6">
+
+
+
+
+
+            <div id="subscribeFormWelcome">
+            </div>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+
+
+
+            <form action="https://gmail.us10.list-manage.com/subscribe/post" method="POST">
+                <input type="hidden" name="u" value="9b36cc737c3f881e576f09d84">
+                <input type="hidden" name="id" value="d5437f16a5">
+
+
+                <!-- people should not fill these in and expect good things -->
+                <div class="field-shift" aria-hidden="true">
+                    <label for="b_name">Name: </label>
+                    <input type="text" name="b_name" tabindex="-1" value="" placeholder="Freddie" id="b_name">
+
+                    <label for="b_email">Email: </label>
+                    <input type="email" name="b_email" tabindex="-1" value="" placeholder="youremail@gmail.com"
+                        id="b_email">
+
+                    <label for="b_comment">Comment: </label>
+                    <textarea name="b_comment" tabindex="-1" placeholder="Please comment" id="b_comment"></textarea>
+                </div>
+
+                <div id="mergeTable" class="mergeTable">
+
+
+                    <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
+                        <label for="MERGE0">Email Address <span class="req asterisk">*</span></label>
+                        <div class="field-group">
+                            <input type="email" autocapitalize="off" name="MERGE0" id="MERGE0"
+                                size="25" value="">
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-1">
+                        <label for="MERGE1">First Name</label>
+                        <div class="field-group">
+                            <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-2">
+                        <label for="MERGE2">Last Name</label>
+                        <div class="field-group">
+                            <input type="text" name="MERGE2" id="MERGE2" size="25" value="">
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-3">
+                        <label for="MERGE3">Onderwerp</label>
+                        <div class="field-group">
+                            <input type="text" name="MERGE3" id="MERGE3" size="25" value="">
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="mergeRow dojoDndItem mergeRow-text" id="mergeRow-4">
+                        <label for="MERGE4">Inhoud</label>
+                        <div class="field-group">
+                            <input type="text" name="MERGE4" id="MERGE4" size="25" value="">
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <div class="submit_container clear">
+                    <input type="submit" class="formEmailButton" name="submit" value="Subscribe">
+                </div>
+                <input type="hidden" name="ht" value="4202c32c67dbaee7f6fc04725d3b31e74400df61:MTY3MTE4MjU5My4wNjM2">
+                <input type="hidden" name="mc_signupsource" value="hosted">
+            </form>
+
+
+        </div>
     </div>
-    <footer>
-        <p><a href="https://www.linkedin.com/in/yannick-van-eck-1864aa251/" target="_blank"><i
-                    class="fa fa-linkedin-square" style="font-size:24px"></i></a> LinkedIn profiel</p>
-        <p id="mail">r0712301@student.thomasmore.be</p>
-    </footer>
+
+
+    <div class="poweredWrapper">
+        <span class="poweredBy"><a
+                href="http://www.mailchimp.com/email-referral/?utm_source=freemium_newsletter&utm_medium=email&utm_campaign=referral_marketing&aid=9b36cc737c3f881e576f09d84&afl=1"><img
+                    src="https://cdn-images.mailchimp.com/monkey_rewards/grow-business-banner-2.png"
+                    alt="Email Marketing Powered by Mailchimp" title="Mailchimp Email Marketing" width="435" height="64"
+                    style="max-width: 100%; height: auto;"></a></span>
+    </div>
+
+    <script  src="/StoSwV/e/i/YuT7_QBaNzCt/G1uOffhQOh5c/fA4ZTQ50AwI/bSVi/PxpeXG0B"></script>
+    <script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/dojo/1.8/dojo/dojo.js"></script>
+    <script >
+        require([
+            "dojo/query",
+            "dojo/dom",
+            "dojo/dom-geometry",
+            "dojo/dom-class",
+            "dojo/dom-style",
+            "dojo/dom-construct",
+            "dijit/focus",
+            "dojo/parser",
+            "dijit/form/DateTextBox",
+            "dojo/NodeList-traverse",
+            "dojo/domReady!"
+        ], function (query, dom, domGeom, domClass, domStyle, domConstruct, focusUtil, parser) {
+
+            // Move the focused-field class to the field-group that contains the focused input.
+            var handle = focusUtil.watch("curNode", function (name, oldValue, newValue) {
+                var parent = query(newValue).closest('.field-group');
+                if (!domClass.contains(parent, "focused-field")) {
+                    query('.focused-field').removeClass('focused-field');
+                    parent.addClass('focused-field');
+                }
+            });
+
+            // Add error class to parent wrapper and only show error borders on empty fields in addresses
+            query('.feedback.error').closest('.field-group').addClass('error');
+            query('.addressfield input:text[value=""]').addClass('empty');
+
+            // Focus first input of birthdayfield or phonefield-us when parent wrapper is clicked
+            query('div.subfields').on("click", function (e) {
+                var firstInput = query('input', e.target)[0];
+                focusUtil.focus(firstInput);
+            });
+
+            // Prevent image blowout in IE6 since it doesn't support max-width
+            if (domClass.contains(query('html')[0], "ie-lte7")) {
+
+                query('img').forEach(function (node) {
+                    var computedStyle = domStyle.getComputedStyle(node);
+                    var w = domGeom.getContentBox(node, computedStyle).w;
+                    console.log(w);
+                    if (w >= 600) {
+                        domStyle.set(node, "width", "600px");
+                    }
+                });
+            }
+
+            // Use native checkboxes and radio buttons outside the app
+            dojo.query(".radio input, .checkbox input").removeAttr("data-dojo-type");
+
+            // Render DateTextBoxes
+            parser.parse();
+
+            query('form').on("submit", function (e) {
+                var invalidDate = dojo.query('.dijitTextBoxError');
+                if (invalidDate.length) {
+                    query('.dijitDateTextBox ~ .feedback.error').forEach(domConstruct.destroy);
+                    invalidDate.forEach(function (node) {
+                        domConstruct.place('<div class="feedback error"><div class="errorText">Please enter a valid date</div></div>', node, 'after');
+                    });
+                    e.preventDefault();
+                } else if (window.bmak) {
+                    // Bot manager telemetry data
+                    window.bmak.form_submit();
+                }
+            });
+
+            twemoji.parse(document.body, { size: 72 });
+
+            query(".emoji").forEach(function (emoji) {
+                domStyle.set(emoji, {
+                    width: "16px",
+                    height: "16px"
+                });
+            });
+        });
+    </script>
+
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+    <script src="https://www.google.com/jsapi"></script>
 </body>
 
 </html>
